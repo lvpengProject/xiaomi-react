@@ -1,0 +1,9 @@
+.login-content {
+    height: 52vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-content p.tip {
+    color: #ff464e;
+}

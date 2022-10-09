@@ -1,0 +1,14 @@
+i.checkbox {
+    display: inline-block;
+    height: 5.3vw;
+    width: 5.3vw;
+    background-size: 100% 100%;
+    background-image: url("./icon_checkbox_uncheck.png");
+}
+i.checked {
+    display: inline-block;
+    height: 5.3vw;
+    width: 5.3vw;
+    background-size: 100% 100%;
+    background-image: url("./icon_checkbox_check.png");
+}

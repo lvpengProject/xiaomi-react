@@ -1,0 +1,11 @@
+i.return {
+    font-style: normal;
+    color: #b0b0b0;
+    position: absolute;
+    top: 0;
+    left: 2.6vw;
+    font-size: 5.3vw;
+}
+span.address-title {
+    font-size: 4.8vw;
+}

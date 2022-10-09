@@ -1,0 +1,120 @@
+.container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.container .header {
+    height: 9.6vw;
+    line-height: 9.6vw;
+    flex-shrink: 0;
+    text-align: center;
+    position: relative;
+    font-size: 4.8vw;
+}
+.container .header i.return {
+    position: absolute;
+    left: 2.6vw;
+    top: 0;
+    font-style: normal;
+}
+.container .content {
+    flex-grow: 1;
+    background-color: rgb(244, 244, 248);
+    padding-bottom: 50px;
+    overflow: auto;
+}
+.content .address-content {
+    height: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 0 0 5.3vw 2.6vw;
+}
+.name-wrapper,.phone-wrapper,.region-wrapper,.detail-wrapper {
+    height: 12vw;
+    line-height: 12vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+span.name,span.phone,span.region,span.detail {
+    display: inline-block;
+    width: 21.3vw;
+    color: #999;
+    font-size: 3.7vw;
+}
+input.name, input.phone, input.region, input.detail {
+    border: none;
+    outline: none;
+}
+.content .perfect-information {
+    width: 100%;
+    margin-top: 13.3vw;
+    background-color: #fff;
+    padding: 0 2.6vw;
+    box-sizing: border-box;
+}
+.perfect-information .information-header {
+    text-align: center;
+    height: 9.3vw;
+    line-height: 9.3vw;
+    font-size: 3.7vw;
+    color: #b0b0b0;
+    margin-bottom: 2.6vw;
+}
+.perfect-information span.information-header-content {
+    color: #333;
+}
+.perfect-information .information-request {
+    width: 100%;
+    background-color: #f4f4f8;
+    padding: 1.3vw 4vw;
+    box-sizing: border-box;
+    font-size: 3.7vw;
+    margin: 1.3vw 0;
+}
+.perfect-information .perfect-body .name-wrapper {
+    height: 12vw;
+    line-height: 12vw;
+    color: #999999;
+    font-size: 3.2vw;
+}
+.perfect-information .perfect-body .id-number {
+    height: 12vw;
+    line-height: 12vw;
+    color: #999999;
+    font-size: 3.2vw;
+}
+.perfect-information .perfect-body input {
+    border: none;
+    outline: none;
+}
+.perfect-information .perfect-bottom {
+    padding: 1.3vw;
+}
+.perfect-information .perfect-bottom i {
+    font-style: normal;
+    font-size: 1.3vw;
+}
+.perfect-information .perfect-bottom span {
+    font-size: 1.3vw;
+    color: #999999;
+}
+.container .footer {
+    height: 12vw;
+    flex-shrink: 0;
+}
+.container .footer button.save {
+    width: 100%;
+    height: 100%;
+    background-color: #ff464e;
+    color: #ffffff;
+    font-size: 5.3vw;
+    border: none
+}

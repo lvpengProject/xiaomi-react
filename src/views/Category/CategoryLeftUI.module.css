@@ -1,0 +1,22 @@
+ ul.left {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+ ul.left li {
+     height: 11.5vw;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ ul.left li span {
+     font-size: 3.7vw;
+     color: #000;
+     width: 100%;
+     text-align: center;
+     box-sizing: border-box;
+ }
+ ul.left li span.active {
+     color: #cf0a2c;
+     border-left: 2px solid #cf0a2c;
+ }

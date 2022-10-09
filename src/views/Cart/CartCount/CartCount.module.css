@@ -1,0 +1,14 @@
+
+button.increase, button.decrease {
+    width: 6.7vw;
+    background-color: #ff464e;
+    color: #fff;
+    /*border: 1px solid #b0b0b0;*/
+    border: none;
+    outline: none;
+    font-size: 3.7vw;
+}
+
+span.count {
+    margin: 0 1.3vw;
+}

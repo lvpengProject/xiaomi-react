@@ -1,0 +1,78 @@
+ul.list {
+    margin: 2.6vw 0;
+}
+ul.list li {
+    background-color: #fff;
+    margin-bottom: 2.6vw;
+    padding: 0 5.3vw;
+    height: 29vw;
+}
+.address-wrapper {
+    height: 17vw;
+    padding: 4vw 0;
+    box-sizing: border-box;
+}
+.address-wrapper span.name {
+    font-size: 4.2vw;
+    color: #333;
+    margin-right: 4.8vw;
+}
+ .address-wrapper span.phone {
+     font-size: 4.2vw;
+     color: #333;
+ }
+.address-wrapper .region-wrapper {
+    margin-top: 1.3vw;
+}
+.address-wrapper .region-wrapper span.region {
+    font-size: 3.7vw;
+    color: #666;
+}
+.address-wrapper .region-wrapper span.detail {
+    font-size: 3.7vw;
+    color: #666;
+}
+.is-default-wrapper {
+    height: 9.6vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.is-default-wrapper .left {
+    display: flex;
+    align-items: center;
+}
+.is-default-wrapper .left img.default {
+    height: 3.2vw;
+    width: 3.2vw;
+    border: 1px solid #666;
+    border-radius: 50%;
+    margin-right: 2.6vw;
+}
+.is-default-wrapper .left img.default.active {
+    background-color: #ff464e;
+    border: none;
+}
+.is-default-wrapper .left span.is-default {
+    font-size: 3.7vw;
+    color: #666;
+}
+.is-default-wrapper .right i.edit {
+    font-size: 3.7vw;
+    font-weight: bold;
+}
+.is-default-wrapper .right span.edit {
+    font-size: 3.7vw;
+    color: #666;
+    margin-left: 1.3vw;
+}
+.is-default-wrapper .right i.remove {
+    font-size: 3.7vw;
+    font-weight: bold;
+    margin-left: 5.3vw;
+}
+.is-default-wrapper .right span.remove {
+    font-size: 3.7vw;
+    color: #666;
+    margin-left: 1.3vw;
+}

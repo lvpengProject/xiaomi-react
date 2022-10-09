@@ -1,0 +1,30 @@
+ul.list li {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    margin: 10px 0;
+}
+.item-avatar {
+    height: 100px;
+    width: 100px;
+    margin: 0 20px;
+}
+.item-avatar img.avatar {
+    height: 100%;
+    width: 100%;
+}
+.item-detail {
+    display: flex;
+    flex-direction: column;
+}
+.name-wrapper span.name {
+    font-size: 14px;
+    color: #333333;
+}
+.price-wrapper {
+    margin: 5px 0;
+}
+.price-wrapper span.price {
+    color: #ff464e;
+}

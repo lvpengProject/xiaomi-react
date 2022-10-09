@@ -1,0 +1,19 @@
+.return {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+span.header-title {
+    font-size: 18px;
+}
+button.edit {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    background-color: #ffffff;
+}

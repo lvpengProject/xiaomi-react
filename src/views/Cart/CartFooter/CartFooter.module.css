@@ -1,0 +1,46 @@
+.bottom {
+    display: flex;
+    height: 45px;
+    padding-left: 15px;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    flex-shrink: 0;
+}
+span.checkAll {
+    color: red;
+}
+.bottom .checkbox-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+}
+.total-wrapper {
+    align-items: flex-end;
+    color: #666666;
+    font-size: 14px;
+    margin-right: 10px;
+}
+span.total {
+    color: #ff464e;
+    font-size: 18px;
+}
+button.transfer {
+    width: 115px;
+    height: 100%;
+    background-color: #f6a623;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+button.remove {
+    width: 115px;
+    height: 100%;
+    background-color: #ff464e;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+}
